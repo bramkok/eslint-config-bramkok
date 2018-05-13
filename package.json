@@ -26,10 +26,12 @@
     "eslint": "4.3.0",
     "eslint-config-prettier": "2.3.0",
     "eslint-plugin-prettier": "2.1.2",
+    "np": "*",
     "prettier": "1.5.3"
   },
   "scripts": {
     "lint": "yarn eslint .",
-    "lint:fix": "yarn lint --fix"
+    "lint:fix": "yarn lint --fix",
+    "release": "np"
   }
 }
