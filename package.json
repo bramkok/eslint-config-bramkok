@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bramkok",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Airbnb style ESLint config with prettier",
   "keywords": [
     "javascript",
