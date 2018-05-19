@@ -1,14 +1,16 @@
 {
   "name": "eslint-config-bramkok",
   "version": "0.1.0",
-  "description": "The bramkok ESLint config",
+  "description": "Airbnb style ESLint config with prettier",
   "keywords": [
     "javascript",
     "ecmascript",
     "eslint",
     "lint",
     "config",
-    "prettier"
+    "prettier",
+    "airbnb",
+    "style"
   ],
   "main": "index.js",
   "repository": "git@github.com:bramkok/eslint-config-bramkok.git",
@@ -16,15 +18,19 @@
   "license": "MIT",
   "peerDependencies": {
     "babel-eslint": ">= 7",
-    "eslint": ">= 4",
+    "eslint": ">= 4.9",
+    "eslint-config-airbnb-base": "^12.1.0",
     "eslint-config-prettier": ">= 2",
+    "eslint-plugin-import": ">= 2.7.0",
     "eslint-plugin-prettier": ">= 2",
     "prettier": ">= 1.5"
   },
   "devDependencies": {
     "babel-eslint": "7.2.3",
-    "eslint": "4.3.0",
+    "eslint": "4.9.0",
+    "eslint-config-airbnb-base": "12.1.0",
     "eslint-config-prettier": "2.3.0",
+    "eslint-plugin-import": "2.7.0",
     "eslint-plugin-prettier": "2.1.2",
     "np": "*",
     "prettier": "1.5.3"
