@@ -1,7 +1,5 @@
 /* eslint-env node */
 
-'use strict';
+const eslintrc = require('./.eslintrc')
 
-const eslintrc = require('./.eslintrc');
-
-module.exports = eslintrc;
+module.exports = eslintrc
