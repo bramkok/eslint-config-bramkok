@@ -6,6 +6,10 @@
 
 1. Add `eslint-config-bramkok` to your project: `yarn add eslint-config-bramkok -D -E`.
 2. Add peer dependencies: `yarn add eslint babel-eslint eslint-config-airbnb-base eslint-plugin-import prettier eslint-config-prettier eslint-plugin-prettier -D -E`.
+If using **npm 5+**, use this shortcut
+```sh
+npx install-peerdeps --dev eslint-config-bramkok
+```
 3. Create `.eslintrc.js` configuration file:
 ```js
 module.exports = {
